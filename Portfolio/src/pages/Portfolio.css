@@ -1,0 +1,56 @@
+/* color palette */
+:root {
+    --green--: #244d3d;
+    --yellow--: rgb(237 211 39);
+    --white--: white;
+    --blue--: #13293d;
+    --purple--: #8b789d;
+}
+
+
+/* Project cards including image sizing and Flexbox attributes */
+main img,
+main a {
+    height: 100%;
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+    width: 35%;
+    margin: 1%;
+    /* background-color: var(--purple--); */
+}
+
+
+/* Media Query for Phone */
+@media screen and (max-width:786px) {
+
+    .item-1,
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5,
+    .item-6 {
+        width: 50%;
+    }
+
+}
