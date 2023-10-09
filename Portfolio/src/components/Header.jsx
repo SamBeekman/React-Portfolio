@@ -1,16 +1,16 @@
 import NavTabs from './NavTabs';
-import {Outlet} from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 
 function Header() {
-        
-    return <div> Header
-                <h4>Sam Beekman</h4>
-        <div><NavTabs/></div>
-        <main><Outlet/></main>
-        </div>
-    
-    
+
+  return <div> <img src="./src/assets/header.jpg" alt="crown header" />
+    <h1>Who is Sam Beekman??</h1>
+    <div><NavTabs /></div>
+    <main><Outlet /></main>
+  </div>
+
+
     ;
-  }
-  
-  export default Header;
+}
+
+export default Header;

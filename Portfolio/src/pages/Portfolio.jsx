@@ -7,9 +7,9 @@ export default function Portfolio() {
     // THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
 
     <div>
-      <h1>Portfolio Page</h1>
-      <h6>Titles link to Gihub</h6>
-      <h6>Images link to Application</h6>
+      {/* <h1>Portfolio Page</h1> */}
+      <h6>Titles link to Gihub ------ Images link to Application</h6>
+
       <main class="container">
         <div class="item item-1">
           <h3><a href="https://github.com/SamBeekman/E-commerce-fashion-store">E-Commerce Fashion Site</a></h3><a href="https://fashion404-1b1ca75a43ac.herokuapp.com/"><img id="image" src="./src/assets/ecommerce.jpg" alt="e-commerce fashion website"></img></a>

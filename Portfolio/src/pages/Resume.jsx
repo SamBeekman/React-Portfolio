@@ -3,8 +3,8 @@ export default function Resume() {
     <div>
 
       <a href="./src/assets/Resume.pdf">View Resume</a>
-
-      <h2>Proficiencies:</h2>
+      <br></br>
+      <h3>Proficiencies:</h3>
       <li>HTML</li>
       <li>CSS + Bootstrap</li>
       <li>Javascript + jQuery</li>

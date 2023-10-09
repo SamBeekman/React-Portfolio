@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div>
 
-      <h1>About Page</h1>
+      {/* <h1>About Page</h1> */}
       <p>
         I would like to introduce myself as Sam, a dedicated individual who has recently embarked on a journey to acquire proficiency in coding and web development. Drawing upon my background in the fields of science, specifically biochemistry and molecular biology, I am now actively participating in a coding bootcamp at Monash University.
 
