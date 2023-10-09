@@ -12,7 +12,7 @@ export default function Portfolio() {
       <h6>Images link to Application</h6>
       <main class="container">
         <div class="item item-1">
-          <h3><a href="https://github.com/ecommerce-fashion-designer/fashion-designer">E-Commerce Fashion Site</a></h3><a href="https://fashion404-1b1ca75a43ac.herokuapp.com/"><img id="image" src="./src/assets/ecommerce.jpg" alt="e-commerce fashion website"></img></a>
+          <h3><a href="https://github.com/SamBeekman/E-commerce-fashion-store">E-Commerce Fashion Site</a></h3><a href="https://fashion404-1b1ca75a43ac.herokuapp.com/"><img id="image" src="./src/assets/ecommerce.jpg" alt="e-commerce fashion website"></img></a>
 
         </div>
         <div class="item item-2">
