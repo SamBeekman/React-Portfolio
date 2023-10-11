@@ -1,17 +1,80 @@
 import './Portfolio.css';
+import Project from '../components/Project';
+
+const myProjects = [{
+  title: 'E-Commerce Fashion Site',
+  github: "https://github.com/SamBeekman/E-commerce-fashion-store",
+  deployed: "https://fashion404-1b1ca75a43ac.herokuapp.com/",
+  image: "./src/assets/ecommerce.jpg",
+  altText: "e-commerce fashion website"
+},
+{
+  title: 'Spotify Playlist Gig Finder',
+  github: "https://github.com/SamBeekman/Spotify-Gig-Finder-App",
+  deployed: "https://sambeekman.github.io/Spotify-Gig-Finder-App/",
+  image: "./src/assets/Project1.png",
+  altText: "Spotify gig finder showing map and available tickets"
+},
+{
+  title: 'Weather App',
+  github: "https://github.com/SamBeekman/Weather-Forecast-App",
+  deployed: "https://sambeekman.github.io/Weather-Forecast-App/",
+  image: "./src/assets/weather-app.jpg",
+  altText: "5 day weather forecast with icons displaying current weather and weather attributes"
+},
+{
+  title: 'Password Generator',
+  github: "https://github.com/SamBeekman/Password-Generator",
+  deployed: "https://sambeekman.github.io/Password-Generator/",
+  image: "./src/assets/password-generator.png",
+  altText: "page with red clickable button that says 'generate pasword'"
+},
+{
+  title: 'CATerrific Landing Page',
+  github: "https://github.com/SamBeekman/caterrific-landing-page",
+  deployed: "https://sambeekman.github.io/caterrific-landing-page/",
+  image: "./src/assets/CATerrific.png",
+  altText: "cat breed information and adoption site"
+},
+{
+  title: 'Prework Study Guide',
+  github: "https://github.com/SamBeekman/prework-study-guide",
+  deployed: "https://sambeekman.github.io/prework-study-guide/",
+  image: "./src/assets/prework.png",
+  altText: "prework study guide"
+},
+]
+
 
 export default function Portfolio() {
   return (
 
-    // WHEN I am presented with the Portfolio section
-    // THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
-
     <div>
-      {/* <h1>Portfolio Page</h1> */}
+
       <h6>Titles link to Gihub ------ Images link to Application</h6>
 
-      <main class="container">
-        <div class="item item-1">
+      <main className="container">
+
+        {myProjects.map((project, index) => (
+          <Project
+            key={index}
+            title={project.title}
+            github={project.github}
+            deployed={project.deployed}
+            image={project.image}
+            altText={project.altText}
+          />
+        ))}
+
+      </main>
+    </div>
+  );
+}
+
+
+
+{/* <main class="container"> */ }
+{/* <div class="item item-1">
           <h3><a href="https://github.com/SamBeekman/E-commerce-fashion-store">E-Commerce Fashion Site</a></h3><a href="https://fashion404-1b1ca75a43ac.herokuapp.com/"><img id="image" src="./src/assets/ecommerce.jpg" alt="e-commerce fashion website"></img></a>
 
         </div>
@@ -35,7 +98,4 @@ export default function Portfolio() {
           <h3><a href="https://github.com/SamBeekman/prework-study-guide">Prework Study Guide</a></h3><a href="https://sambeekman.github.io/prework-study-guide/"><img id="image" src="./src/assets/prework.png" alt="prework study guide"></img></a>
 
         </div>
-      </main>
-    </div>
-  );
-}
+      </main> */}
