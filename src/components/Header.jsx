@@ -1,12 +1,12 @@
 import NavTabs from './NavTabs';
-import { Outlet } from 'react-router-dom';
+// import { Outlet } from 'react-router-dom';
 
 function Header() {
 
-  return <div> <img src="./src/assets/header.jpg" alt="crown header" />
+  return <div> <img src='/header.jpg' alt="crown header" />
     <h1>Who is Sam Beekman??</h1>
     <div><NavTabs /></div>
-    <main><Outlet /></main>
+    {/* <main><Outlet /></main> */}
   </div>
 
 

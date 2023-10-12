@@ -8,7 +8,7 @@ export default function About() {
 
         The purpose of this intensive program is to equip me with the fundamental expertise necessary to pursue a new and promising career in the realm of information technology. In line with this endeavor, I have taken the initiative to construct a comprehensive portfolio that showcases my abilities and potential value to prospective employers in the field.
       </p>
-      <img className="img-fluid img-thumbnail" src="./src/assets/photo.jpg" alt="portrait photograph of Sam Beekman against a background of green trees" />
+      <img className="img-fluid img-thumbnail" src="/photo.jpg" alt="portrait photograph of Sam Beekman against a background of green trees" />
     </div>
   );
 }

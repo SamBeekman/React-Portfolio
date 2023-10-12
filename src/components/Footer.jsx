@@ -1,7 +1,7 @@
-import reactLogo from '../assets/react.svg'
-import githubLogo from '../assets/github-mark.png'
-import linkedInLogo from '../assets/linkedIn.png'
-import facebookLogo from '../assets/facebook.jpg'
+import reactLogo from '/react.svg'
+import githubLogo from '/github-mark.png'
+import linkedInLogo from '/linkedIn.png'
+import facebookLogo from '/facebook.jpg'
 import './Footer.css'
 
 

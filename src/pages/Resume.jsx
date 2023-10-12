@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <div>
 
-      <a href="./src/assets/Resume.pdf">View Resume</a>
+      <a href="/Resume.pdf">View Resume</a>
       <br></br>
       <h3>Proficiencies:</h3>
       <li>HTML</li>
