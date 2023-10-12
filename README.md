@@ -23,6 +23,9 @@ The purpose of this project was to build a professional portfolio of the applica
 N/A follow the supplied link to check out my portfolio!
 
 
+![localhost_3000_Portfolio](https://github.com/SamBeekman/React-Portfolio/assets/131665093/a02ef365-bfab-43a8-a3d7-dfd603bc95c9)
+
+
 ## Usage
 
 N/A
