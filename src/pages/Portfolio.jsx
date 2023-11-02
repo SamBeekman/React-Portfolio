@@ -30,11 +30,11 @@ const myProjects = [{
   altText: "page with red clickable button that says 'generate pasword'"
 },
 {
-  title: 'CATerrific Landing Page',
-  github: "https://github.com/SamBeekman/caterrific-landing-page",
-  deployed: "https://sambeekman.github.io/caterrific-landing-page/",
-  image: "/CATerrific.png",
-  altText: "cat breed information and adoption site"
+  title: 'Samagotchi Virtual Pet',
+  github: "https://github.com/SamBeekman/Samagotchi",
+  deployed: "https://samagotchi-38024e671c79.herokuapp.com/",
+  image: "/Samagotchi.png",
+  altText: "virtual pet game"
 },
 {
   title: 'Prework Study Guide',
