@@ -22,7 +22,7 @@ The purpose of this project was to build a professional portfolio of the applica
 
 N/A follow the supplied link to check out my portfolio!
 
-Link to Netlify: https://profound-puppy-4d9877.netlify.app/
+Link to Netlify: https://sam-beekman-portfolio.netlify.app/
 
 
 ![localhost_3000_Portfolio](https://github.com/SamBeekman/React-Portfolio/assets/131665093/a02ef365-bfab-43a8-a3d7-dfd603bc95c9)
