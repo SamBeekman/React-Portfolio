@@ -53,7 +53,7 @@ export default function Portfolio() {
     <div>
       <br />
       <br />
-      <h6>Titles link to Gihub ------ Images link to Application</h6>
+      <h6>Titles link to Github ------ Images link to Application</h6>
 
       <main className="container">
 
