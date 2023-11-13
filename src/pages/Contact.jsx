@@ -3,12 +3,6 @@ import './Contact.css';
 import { validateEmail } from '../utils/helpers';
 
 
-{/* 
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required -----------------------------------------------
-
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address */}
 
 export default function Contact() {
 

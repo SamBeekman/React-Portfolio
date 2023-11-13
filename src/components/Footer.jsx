@@ -21,11 +21,6 @@ function Footer() {
       <a href="https://www.linkedin.com/in/sam-beekman/" target="_blank">
         <img src={linkedInLogo} className="logo" alt="LinkedIn logo" />
       </a>
-
-      {/* -----3rd Platform -------- */}
-      <a href="https://www.facebook.com/sam.beekman" target="_blank">
-        <img src={facebookLogo} className="logo" alt="Facebook logo" />
-      </a>
     </div>
   </>
 }
