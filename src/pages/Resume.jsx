@@ -3,6 +3,26 @@ export default function Resume() {
     <div>
 
       <a href="/Resume.pdf">View Resume</a>
+
+      <img className="img-fluid img-thumbnail" src="/tech/bcrypt.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/bootstrap.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/css.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/dotenv.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/express.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/github.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/graphql.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/heroku.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/html.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/javascript.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/jquery.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/jwt.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/mongodb.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/mongoose.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/mysql.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/nodejs.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/pwa.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/react.png" alt="logo" />
+      <img className="img-fluid img-thumbnail" src="/tech/sequelize.png" alt="logo" />
       <br></br>
       <h3>Proficiencies:</h3>
       <li>HTML</li>
