@@ -3,7 +3,7 @@ import NavTabs from './NavTabs';
 
 function Header() {
 
-  return <div> <img src='/header.jpg' alt="crown header" />
+  return <div> <img src='/header1.jpg' alt="crown header" />
     <h1>Who is Sam Beekman??</h1>
     <div><NavTabs /></div>
     {/* <main><Outlet /></main> */}
